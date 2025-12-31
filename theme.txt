@@ -1,0 +1,46 @@
+# Global
+title-text: ""
+desktop-image: "background.png"
+terminal-border: "20"
+terminal-left: "10%"
+terminal-top: "10%+23"
+terminal-width: "80%"
+terminal-height: "80%"
+terminal-box: "term_*.png"
+terminal-font: "determination_22.pf2"
+
+### MAIN BOOT MENU
++ boot_menu {
+	left = 50%-320
+	top = 50%-220
+	width = 809
+	height = 324
+	item_font = "determination_30.pf2"
+	item_color = "#018001"
+	selected_item_color = "#00ff01"
+	item_padding = 0
+	# Each item: 96px height + 12px spacing = 108px
+	# 3 items visible: 108 × 3 = 324px
+	item_height = 108
+	item_spacing = 40
+	icon_width = 1
+	icon_height = 1
+	item_icon_space = 0
+	scrollbar = true
+	scrollbar_width = 12
+	scrollbar_thumb = "scrollbar_thumb_*.png"
+	scrollbar_frame = "scrollbar_frame_*.png"
+}
+
+# TIMEOUT
++ label {
+	id = "__timeout__"
+	left = 0
+	top = 60
+	height = 30
+	width = 100%
+	text = "ENTERING PROGRAM IN %d SECONDS"
+	align = "center"
+	font = "determination_30.pf2"
+	color = "#018001"
+}
