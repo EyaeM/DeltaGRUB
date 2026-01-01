@@ -12,8 +12,8 @@ So I asked in the Arch Linux discord whether there was a GRUB theme for Deltarun
   ![Main Screen][main]
   ![Terminal][term]
   
-  [main]: https://eyae.lol/files/DeltaMain.jpg
-  [term]: https://eyae.lol/files/DeltaTerm.jpg
+  [main]: https://github.com/user-attachments/assets/5117e9ca-1ae6-4b30-baaa-94842c34e157
+  [term]: https://github.com/user-attachments/assets/d87f405d-8199-4ada-8f6c-e649ae9403f1
 
 ## INSTALLATION
 
