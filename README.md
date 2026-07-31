@@ -17,10 +17,9 @@ So I asked in the Arch Linux discord whether there was a GRUB theme for Deltarun
 
 ## INSTALLATION
 
-1. **Fork and clone the repository**
+1. **Clone the repository**
 ```bash
    git clone https://github.com/EyaeM/DeltaGRUB.git
-   cd DeltaGRUB
 ```
 
 2. **Move the theme folder to GRUB themes directory**
@@ -53,14 +52,6 @@ sudo update-grub
 ```
 
 5. **YOU NOW HAVE DELTAGRUB**
-
-## CHECKLIST
-
-- [X] Actually start making the thing
-- [X] Align the Text
-- [ ] Add more text like the time and description
-- [X] Make the boxes become green when over them
-- [X] Add the SOUL as a selector
       
 ## CREDITS
 
